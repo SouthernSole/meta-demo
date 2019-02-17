@@ -4,7 +4,7 @@
 DESCRIPTION = "Freescale Image - Adds Qt5"
 LICENSE = "MIT"
 
-require ocu-gui.bb
+require demo-image-gui.bb
 
 inherit distro_features_check populate_sdk_qt5
 
